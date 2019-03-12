@@ -9,7 +9,7 @@ public static void quotient(int num, int den)
 
 public static void main(String[] args) {
 //System.out.println("Howdy yall");
-try { quotient(num1, num2);
+try { quotient(num1, den);
 }
 catch (ArithmeticException o) {
 System.out.println("You must not enter 0 for denominator.");
